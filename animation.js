@@ -2,7 +2,7 @@
             setTimeout(() => {
                 document.querySelector(".loader").style.display = "none";
                 document.querySelector(".content").style.display = "block";
-                document.querySelector(".video-background").style.display = "block"; // Show video after loader
+                document.querySelector(".video-background").style.display = "block"; 
                 animateText("Mahakalkar");
             }, 4000);
         });

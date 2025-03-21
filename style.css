@@ -12,7 +12,7 @@
             position: relative;
         }
 
-        /* Video Background */
+        
         .video-background {
             position: fixed;
             top: 0;
@@ -21,10 +21,10 @@
             height: 100%;
             object-fit: cover;
             z-index: -1;
-            display: none; /* Hide initially */
+            display: none; 
         }
 
-        /* loader Animation */
+       
         .loader {
             position: fixed;
             width: 100%;
@@ -51,7 +51,7 @@
             display: none;
         }
 
-        .hero {
+        .sub-content {
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -62,7 +62,7 @@
             animation: fadeInUp 1.5s ease-out forwards;
         }
 
-        .hero h1 {
+        .sub-content h1 {
             font-size: 3rem;
             font-weight: bold;
             display: inline-block;
@@ -70,7 +70,7 @@
             white-space: nowrap;
         }
 
-        .hero p {
+        .sub-content p {
             font-size: 1.2rem;
             margin-top: 10px;
             opacity: 0;
